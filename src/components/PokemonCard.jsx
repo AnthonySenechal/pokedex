@@ -6,12 +6,12 @@ function PokemonCard (props) {
     return (
     <figure className="card">
         {props.imgSrc ? (
-            <img src={props.imgSrc} alt={props.name}/>
+            <img src={props.imgSrc} alt={props.name} className="card-img"/>
         ) : (
             <p>???</p>
         )
         }
-        <figcaption>Bulbasaur</figcaption>
+        <figcaption>{props.name}</figcaption>
     </figure>
     );
   }
