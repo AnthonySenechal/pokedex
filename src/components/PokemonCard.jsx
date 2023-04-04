@@ -2,6 +2,10 @@ import PropTypes from 'prop-types';
 
 
 
+
+
+
+
 function PokemonCard (props) {
     return (
     <figure className="card">
